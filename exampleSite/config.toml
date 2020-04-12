@@ -47,7 +47,7 @@ disqusShortname = "edsherwinn"
     maxSeeAlsoItems = 5
 
     # Custom CSS
-    custom_css = []
+    custom_css = ["css/custom.css"]
 
     # Custom JS
     custom_js = []
