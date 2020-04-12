@@ -1,0 +1,84 @@
+baseURL = "https://great-iron-0a3e2.netlify.com"
+title = "ed sherwin nonog test"
+theme = "hugo-coder"
+
+googleAnalytics = "UA-3836052-1"
+
+languageCode = "en-us"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "tango"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "ednonog"
+
+[params]
+    author = "Ed Sherwin Nonog"
+    info = "Software QA Engineer"
+    description = "It's all about me."
+    keywords = "personal, QA, blog, resume"
+    avatarurl = "/img/avatar-ed.png"
+
+    favicon_32 = "/img/favicon.ico"
+    #favicon_16 = "/img/favicon.ico"
+
+    footercontent = ""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-4x"
+    weight = 1
+    url = "https://github.com/edsherwin/"
+[[params.social]]
+    name = "Stackoverflow"
+    icon = "fab fa-stack-overflow fa-2x"
+    weight = 2
+    url = "https://stackoverflow.com/users/8572997/ed-sherwin-nonog"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/edsherwin/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 4
+    url = "https://www.linkedin.com/in/ed-sherwin-nonog-95b7b474/"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram fa-2x"
+    weight = 5
+    url = "https://instagram.com/edsherween"
+[[params.social]]
+    name = "Keybase"
+    icon = "fab fa-keybase fa-2x"
+    weight = 6
+    url = "#"
+
+
+# Menu links
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url  = "/about/"
+[[menu.main]]
+    name = "Projects"
+    weight = 2
+    url  = "/projects/"
+[[menu.main]]
+    name = "Contact me"
+    weight = 3
+    url  = "/contact/"
+
